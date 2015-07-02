@@ -1,3 +1,5 @@
-from django.shortcuts import render
+from django.views.generic import DetailView
+from apps. hello.models import Person
 
-# Create your views here.
+class PersonDetail(DetailView):
+	model = Person 
