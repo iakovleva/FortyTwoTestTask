@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+<h1>42 Coffee Cups Test Assignment</h1>
+<ul>
+	<li>Name: {{ person.name }}</li>
+	<li>Last name: {{ person.last_name }}</li>
+	<li>Date of birth: {{ person.date_of_birth }}</li>
+	<li>Bio: {{ person.bio }}</li>
+	<li>Email: {{ person.email }}</li>
+	<li>Skype: {{ person.skype }}</li>
+</ul>
+{% endblock %} 

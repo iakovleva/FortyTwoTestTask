@@ -1,0 +1,14 @@
+[
+    {
+	"model": "hello.person",
+	"pk": 1,
+	"fields": {
+	    "name": "Polina",
+		"last_name": "Iakovleva",
+		"date_of_birth": "1987-03-01",
+	    "bio": "  ",
+		"email": "paulina.iakovleva@gmail.com", 
+		"skype": "polinochka987"
+		 }
+    }
+]
